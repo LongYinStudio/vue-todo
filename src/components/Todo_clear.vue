@@ -29,11 +29,12 @@ export default {
   mounted() {},
   // 监听列表 发生改变就操作
   watch: {
-    contList: { //监听对象
+    contList: {
+      //监听对象
       deep: true, //深度监听
-      handler(val){
-        this.$store.commit('contList', val);
-      }
+      handler(val) {
+        this.$store.commit("contList", val);
+      },
     },
   },
   computed: {
@@ -55,7 +56,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 .el-tag {
   float: right;
   margin-left: 10px;

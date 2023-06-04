@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
-<style lang="less">
+<style>
 #app {
   padding-top: 100px;
   font-family: Avenir, Helvetica, Arial, sans-serif;

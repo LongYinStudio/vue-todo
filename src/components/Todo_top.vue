@@ -49,7 +49,7 @@ export default {
 };
 </script>
 
-<style lang="less" scoped>
+<style scoped>
 h3 {
   font-family: serif;
   color: #fff;

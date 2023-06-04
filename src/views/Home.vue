@@ -1,6 +1,6 @@
 <template>
   <div>
-     <VueTodoTodoTop />
+    <VueTodoTodoTop />
     <VueTodoTodoItem />
     <VueTodoTodoClear />
   </div>
@@ -24,7 +24,7 @@ export default {
 };
 </script>
 
-<style lang="less" >
+<style>
 .el-row {
   width: 600px;
   margin: 5px auto;
